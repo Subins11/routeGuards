@@ -17,6 +17,7 @@ export class FormComponent implements CanComponentDeactivate {
   }
 
   canDeactivate(): boolean {
+    console.log("checkin")
     if (this.isFormDirty) {
       return window.confirm('You have unsaved changes. Do you really want to leave?');
     }

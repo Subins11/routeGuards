@@ -3,6 +3,7 @@ import { CanDeactivate } from '@angular/router';
 
 export interface CanComponentDeactivate {
   canDeactivate: () => boolean | Promise<boolean>;
+  
 }
 
 @Injectable({
