@@ -1,0 +1,18 @@
+.routing {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f0f0f0;
+  
+    a {
+      text-decoration: none;
+      padding: 10px;
+      color: #333;
+      transition: color 0.3s ease; 
+  
+      &:hover {
+        color: #007bff;
+      }
+    }
+  
+  }
