@@ -3,8 +3,8 @@ import { CanComponentDeactivate } from '../can-deactivate.guard';
 
 @Component({
   selector: 'app-form-page',
-  templateUrl: './form-page.component.html',
-  styleUrls: ['./form-page.component.scss']
+  templateUrl: './form.component.html',
+  styleUrls: ['./form.component.scss']
 })
 export class FormComponent implements CanComponentDeactivate {
   formData: any = {};
